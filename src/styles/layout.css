@@ -1,0 +1,50 @@
+body {
+    margin: 0px !important;
+}
+
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+    .trigger:hover {
+        color: #1890ff;
+    }
+
+.logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.page-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.page-sider {
+    overflow: auto;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.page-content {
+    height: calc(100vh - 120px);
+    margin: 8px 8px;
+    padding: 8px;
+    overflow: auto;
+}
+
+.page-footer {
+    text-align: center;
+    height: 20px;
+    font-weight: bold;
+    padding: 0 0 8px 0 !important;
+}
